@@ -18,15 +18,16 @@ to require module use
 
 ```
 
-### Browser
+#### Browser
 
-<script src="dist/retinable.min.js"></script>
-<script>
-    if (retinable()) {
-        console.log("Your device have retina display");
-    }
-</script>
-
+```
+    <script src="dist/retinable.min.js"></script>
+    <script>
+        if (retinable()) {
+            console.log("Your device have retina display");
+        }
+    </script>
+```
 
 Or use an AMD loader (such as RequireJS):
 
