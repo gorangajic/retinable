@@ -1,0 +1,30 @@
+{
+  "name": "retinable",
+  "version": "1.0.0",
+  "description": "checks if device have retina display",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gorangajic/retinable"
+  },
+  "keywords": [
+    "retina",
+    "display",
+    "check",
+    "is-retina",
+    "retinable"
+  ],
+  "author": "Goran Gajic <fero.null@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gorangajic/retinable/issues"
+  },
+  "homepage": "https://github.com/gorangajic/retinable",
+  "devDependencies": {
+    "node-libs-browser": "^0.5.2",
+    "webpack": "^1.9.10"
+  }
+}
