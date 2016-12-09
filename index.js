@@ -1,1 +1,1 @@
-module.exports = require('lib/retinable');
+module.exports = require('./lib/retinable');
