@@ -1,6 +1,6 @@
 {
   "name": "retinable",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "checks if device have retina display",
   "main": "node.js",
   "browser": "index.js",
