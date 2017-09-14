@@ -2,7 +2,7 @@
 	if(typeof exports === 'object' && typeof module === 'object')
 		module.exports = factory();
 	else if(typeof define === 'function' && define.amd)
-		define(factory);
+		define([], factory);
 	else if(typeof exports === 'object')
 		exports["retinable"] = factory();
 	else
@@ -52,7 +52,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
 	var retinaCheck;
 
@@ -126,7 +126,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 
 
-/***/ }
+/***/ })
 /******/ ])
 });
 ;
